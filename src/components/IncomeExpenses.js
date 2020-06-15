@@ -5,7 +5,7 @@ import { GlobalContext } from '../context/GlobalState';
 
 export const IncomeExpenses = () => {
 
-    const { transactions } = useContext(GlobalContext); //pulling out transactions directly from context
+    const { transactions } = useContext(GlobalContext); 
 
     const amounts = transactions.map(transaction=> transaction.amount);
 

@@ -14,7 +14,7 @@ export const AddTransaction = () => {
         const newTransaction = {
             id: Math.floor(Math.random()*100000),
             text,
-            amount : parseInt(amount) //parseInt(amount) is the same as +amount
+            amount : parseInt(amount)
         };
 
         addTransaction(newTransaction);

@@ -6,7 +6,7 @@ import { Transaction } from './Transaction';
 
 export const TransactionList = () => {
 
-    const { transactions } = useContext(GlobalContext); //pulling out transactions directly from context
+    const { transactions } = useContext(GlobalContext);
 
     return (
         <>
